@@ -1,0 +1,18 @@
+.fa-terminal{
+  color : white;
+}
+
+.name {
+  color : white;
+  float : left;
+  display : inline;
+  position:absolute;
+  padding-left: 20px;
+}
+
+.nav-link a{
+  color : white;
+  float : right;
+  display : inline;
+  padding : .5rem 1rem;
+}
