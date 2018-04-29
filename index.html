@@ -26,12 +26,12 @@
   <body>
     <header>
       <div class="navbar navbar-dark bg-dark box-shadow">
-        <i class="fas fa-terminal"></i><strong class="name">&nbsp;Dustin Grady</strong> <!--Space + Name-->
+        <i class="fas fa-terminal"></i><h5 class="name">&nbsp;Dustin Grady</h5> <!--Space + Name-->
         <div class="nav-link">
           <a href="https://www.linkedin.com/in/dustin-grady-77371411b/">Linkedin</a>
           <a href="mailto:dustin.grady@gmail.com">Email</a>
           <a href="https://github.com/dustingrady/">Github</a>
-          <a href="https://drive.google.com/file/d/1yXZ6obJoHvR8ds7b1XKEJSx6Ml3ssm-O/view?usp=sharing">Resume</a>
+          <a href="https://drive.google.com/file/d/10UVY-lI4DTHeNKLSk1FNsiO0DM3ldsUG/view?usp=sharing">Resume</a>
         </div>
       </div>
     </header>
@@ -40,7 +40,7 @@
       <section class="jumbotron text-center">
         <div class="container">
           <h1 class="jumbotron-heading" id="aboutme">About Me</h1>
-          <p class="lead text-muted">Hello there! My name is Dustin Grady. I am a Computer Science student currently finishing up my Bachelors degree at Cal State Monterey Bay. During this time, I have also been working an internship as a Software Developer for Space Systems Loral in Palo Alto, gaining valuable industry experience.</p>
+          <p class="lead text-muted">Hello there; My name is Dustin Grady. I am a Computer Science student currently finishing up my Bachelors degree at Cal State Monterey Bay. During this time, I have also been working an internship as a Software Developer for Space Systems Loral in Palo Alto, gaining valuable industry experience.</p>
           <p>
             <a href="#" class="btn btn-primary my-2">Button 1</a>
             <a href="#" class="btn btn-secondary my-2">Button 2</a>
@@ -54,13 +54,73 @@
           <div class="row">
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
+                <h5 class = "project-title">Smart Mirror</h5>
+                <img class="card-img-top" src="./img/smart-mirror.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">A Smart Mirror which displays the current weather, date/time and traffic conditions.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    </div>
+                    <small class="text-muted">Python</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <h5 class = "project-title">Photo Assistant</h5>
+                <img class="card-img-top" src="./img/photo-assistant.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">A Photo Assistant that will take pictures and check whether or not the subject was blinking</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    </div>
+                    <small class="text-muted">Python</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <h5 class = "project-title">Prime Number Generator</h5>
+                <img class="card-img-top" src="./img/prime.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">A script I wrote to run on my Raspberry Pi over the Summer to see how large of a prime number I could find.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    </div>
+                    <small class="text-muted">Python</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <h5 class = "project-title">PingPy</h5>
+                <img class="card-img-top" src="./img/ping-py.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">A tool I wrote to help me detect host availability.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    </div>
+                    <small class="text-muted">Python</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
                 <img class="card-img-top" src="./index.svg" alt="Card image cap">
                 <div class="card-body">
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                       <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                     </div>
                     <small class="text-muted">9 mins</small>
                   </div>
@@ -75,22 +135,6 @@
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                       <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small class="text-muted">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top" src="./index.svg" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                     </div>
                     <small class="text-muted">9 mins</small>
                   </div>
@@ -106,7 +150,6 @@
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                       <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                     </div>
                     <small class="text-muted">9 mins</small>
                   </div>
@@ -121,7 +164,6 @@
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                       <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                     </div>
                     <small class="text-muted">9 mins</small>
                   </div>
@@ -136,53 +178,6 @@
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                       <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small class="text-muted">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top" src="./index.svg" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small class="text-muted">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top" src="./index.svg" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small class="text-muted">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card mb-4 box-shadow">
-                <img class="card-img-top" src="./index.svg" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                     </div>
                     <small class="text-muted">9 mins</small>
                   </div>
@@ -198,10 +193,7 @@
     <footer class="text-muted">
       <div class="container">
         <p class="float-right">
-          <a href="#">Back to top</a>
         </p>
-        <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-        <p>New to Bootstrap? <a href="../../">Visit the homepage</a> or read our <a href="../../getting-started/">getting started guide</a>.</p>
       </div>
     </footer>
 
