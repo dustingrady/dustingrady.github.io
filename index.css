@@ -36,6 +36,8 @@
 }
 .col-md-4 img {
 	max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .col-md-4 .card-img-top{
 	display: block;
