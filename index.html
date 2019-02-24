@@ -12,15 +12,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../../../favicon.ico">
 
     <title>Dustin Grady</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="../../../../dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="album.css" rel="stylesheet">
   </head>
 
   <body>
@@ -39,10 +32,11 @@
     <main role="main">
       <section class="jumbotron text-center">
         <div class="container">
-          <h1 class="jumbotron-heading" id="aboutme">About Me</h1>
-          <p class="lead text-muted">
-            Hey there; My name's Dustin. I'm a recent graduate of California State University Monterey Bay, where I received my Bachelors of Science in Computer Science.
-            I currently work as a Software Developer in the Bay Area, and enjoy contributing to scientific programming projects in my spare time.</p>
+          <h2 class="jumbotron-heading" id="aboutme">About Me</h2>
+          <p class="lead text-muted" align="center">
+            Hey there; My name's Dustin. I'm a recent graduate of California State University Monterey Bay, where I received my Bachelors of Science in Computer Science.<br>
+            I currently work as a Software Developer for an Aerospace company based in the Bay Area, and enjoy contributing to scientific programming projects in my spare time.
+            Below are some of my favorite projects from the past; I hope you enjoy checking them out, because I enjoyed writing them :)</p>
           <!--
           <p>
             <a href="#" class="btn btn-primary my-2">Button 1</a>
@@ -60,7 +54,7 @@
                 <h5 class = "project-title">Coal Mine</h5>
                 <img class="card-img-top" src="./img/coal-mine.png" alt="Card image cap">
                 <div class="card-body">
-                  <p class="card-text">Coal Mine is a script which checks various VPN providers canary notices, and reports any changes to the user</p>
+                  <p class="card-text">Coal Mine is a script which checks for changes to a service providers canary notice, and reports them back to the user</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                       <a type="button" href="https://github.com/dustingrady/CoalMine" class="btn btn-sm btn-outline-secondary">View</a>
@@ -90,7 +84,7 @@
                 <h5 class = "project-title">Smart Mirror</h5>
                 <img class="card-img-top" src="./img/smart-mirror.png" alt="Smart Mirror">
                 <div class="card-body">
-                  <p class="card-text">A Smart Mirror which displays the current weather, date/time and traffic conditions</p>
+                  <p class="card-text">A Smart Mirror which displays the current weather, date/time and traffic conditions></p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                       <a type="button" href="https://github.com/dustingrady/SmartMirror" class="btn btn-sm btn-outline-secondary">View</a>
@@ -105,7 +99,7 @@
                 <h5 class = "project-title">Photo Assistant</h5>
                 <img class="card-img-top" src="./img/photo-assistant.png" alt="Photo Assistant">
                 <div class="card-body">
-                  <p class="card-text">Photo Assistant is a tool which will take pictures and check whether or not the subject was blinking/ smiling</p>
+                  <p class="card-text">Photo Assistant is a computer vision tool which will take pictures, and identify whether or not the subject was smiling/ blinking. If the subject is blinking or frowning, they will be prompted to take the photo again</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                       <a type="button" href="https://github.com/dustingrady/PhotoAssistant" class="btn btn-sm btn-outline-secondary">View</a>
@@ -120,7 +114,7 @@
                 <h5 class = "project-title">Prime Number Generator</h5>
                 <img class="card-img-top" src="./img/prime.png" alt="Prime Number Generator">
                 <div class="card-body">
-                  <p class="card-text">A script I wrote to run on my Raspberry Pi in order to see how large of a prime number I could find</p>
+                  <p class="card-text">A script which will search for large prime numbers, saving the current highest to disc</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                       <a type="button" href="https://github.com/dustingrady/PrimeNumberGenerator" class="btn btn-sm btn-outline-secondary">View</a>
@@ -151,7 +145,7 @@
                 <h5 class = "project-title">Median Filter</h5>
                 <img class="card-img-top" src="./img/median-filter.png" alt="Median Filter">
                 <div class="card-body">
-                  <p class="card-text">Uses median pixel value for each pixel (between a series of images) to filter out non-static artifacts</p>
+                  <p class="card-text">Given a series of images, Median Filter will filter out transient objects</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                       <a type="button" href="https://github.com/dustingrady/MedianFilter" class="btn btn-sm btn-outline-secondary">View</a>
@@ -166,7 +160,7 @@
                 <h5 class = "project-title">Cygnus</h5>
                 <img class="card-img-top" src="./img/cygnus.png" alt="Cygnus">
                 <div class="card-body">
-                  <p class="card-text">A 2D platforming game a few classmates and I worked on for our Capstone project</p>
+                  <p class="card-text">A 2D platforming game written in collaboration with my CSU Monterey Bay capstone team</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                       <a type="button" href="https://github.com/dustingrady/cygnus" class="btn btn-sm btn-outline-secondary">View</a>
@@ -210,8 +204,5 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="../../../../assets/js/vendor/popper.min.js"></script>
-    <script src="../../../../dist/js/bootstrap.min.js"></script>
-    <script src="../../../../assets/js/vendor/holder.min.js"></script>
   </body>
 </html>
