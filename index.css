@@ -1,4 +1,9 @@
 /* Main */
+
+.portfolio {
+  overflow-x: hidden; /* needed because hiding the menu on the right side is not perfect,  */
+}
+
 header {
   position: sticky;
   min-width: 550px;
@@ -109,7 +114,6 @@ body
 {
   margin: 0;
   padding: 0;
-  overflow-x: hidden; /* needed because hiding the menu on the right side is not perfect,  */
 }
 
 a
