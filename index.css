@@ -1,4 +1,7 @@
 /* Main */
+header {
+  min-width: 550px;
+}
 .fa-terminal {
   color : white;
 }
