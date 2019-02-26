@@ -19,14 +19,27 @@
 
   <body>
     <header>
+      <nav role="navigation">
+        <div id="menuToggle">
+          <!--
+          A fake / hidden checkbox is used as click reciever,
+          so you can use the :checked selector on it.
+          -->
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul id="menu">
+            <a href="https://www.linkedin.com/in/dustin-grady-77371411b/"><li>LinkedIn</li></a>
+            <a href="mailto:dustin.grady@pm.me"><li>Email</li></a>
+            <a href="https://github.com/dustingrady/"><li>Github</li></a>
+            <a href="https://drive.google.com/file/d/1oWTVIIh-1wQwouxBbinvGb7BqA7_2s9_/view?usp=sharing"><li>Resume</li></a>
+          </ul>
+        </div>
+      </nav>
+
       <div class="navbar navbar-dark bg-dark box-shadow">
         <i class="fas fa-terminal"></i><h5 class="name">&nbsp;Dustin Grady</h5> <!--Space + Name-->
-        <div class="nav-link">
-          <a href="https://www.linkedin.com/in/dustin-grady-77371411b/">Linkedin</a>
-          <a href="mailto:dustin.grady@pm.me">Email</a>
-          <a href="https://github.com/dustingrady/">Github</a>
-          <a href="https://drive.google.com/file/d/1oWTVIIh-1wQwouxBbinvGb7BqA7_2s9_/view?usp=sharing">Resume</a>
-        </div>
       </div>
     </header>
 
