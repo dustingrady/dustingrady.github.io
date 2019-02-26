@@ -6,7 +6,7 @@
 
 header {
   position: sticky;
-  min-width: 550px;
+  min-width: 200px;
 }
 .fa-terminal {
   color : white;
